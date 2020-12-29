@@ -1,3 +1,7 @@
 def scrabble(word)
-  1
+  if word == ""
+    0
+  else
+    1
+  end  
 end
