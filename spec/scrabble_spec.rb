@@ -20,4 +20,8 @@ describe "#scrabble" do
     expect(scrabble("f")).to eq 4
   end
 
+  it "returns a score of 6 if input is 'street'" do
+    expect(scrabble("street")).to eq 6
+  end
+
 end
