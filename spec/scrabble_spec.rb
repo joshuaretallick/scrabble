@@ -11,4 +11,13 @@ describe "#scrabble" do
     expect(scrabble("")).to eq 0
   end
 
+  xit "returns a score of 0 if input is not string" do
+    # a         |     "0"
+    expect(scrabble(a)).to eq 0
+  end
+
+  it "returns a score of 4 if input is 'f'" do
+    expect(scrabble("f")).to eq 4
+  end
+
 end

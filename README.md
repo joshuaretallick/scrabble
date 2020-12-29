@@ -5,11 +5,11 @@ Requirements
 Given a word, compute the scrabble score for that word.
 
 INPUT     |     OUTPUT
-"a"       |     "1"
-""        |     "0"
-a         |     "0"
-          |     "0"
-"street"  |     "6"
+"a"       |      1
+""        |      0
+a         |      0
+          |      0
+"street"  |      6
 
 Acceptance Criteria
 
